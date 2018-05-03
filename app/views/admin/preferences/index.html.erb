@@ -1,0 +1,11 @@
+<%= form_for @preference do |f| %>
+<%= f.label :artist_sort_order %>
+<%= f.select :artist_sort_order, [['ASC', 'ASC'],['DESC', 'DESC']] %>
+<%= f.label :allow_create_artists %>
+<%= f.check_box :allow_create_artists %>
+<%= f.label :song_sort_order %>
+<%= f.select :artist_sort_order, [['ASC', 'ASC'],['DESC', 'DESC']] %>
+<%= f.label :allow_create_songs %>
+<%= f.check_box :allow_create_songs %>
+<%= f.submit %>
+
